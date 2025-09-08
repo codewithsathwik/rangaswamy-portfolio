@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K N Rangaswamy - Journalist Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'poppins': ['Poppins', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .mesh-bg {
+      background:
+        radial-gradient(circle at 20% 20%, rgba(59, 130, 246, 0.3), transparent 40%),
+        radial-gradient(circle at 80% 20%, rgba(192, 132, 252, 0.3), transparent 40%),
+        radial-gradient(circle at 50% 50%, rgba(236, 72, 153, 0.3), transparent 40%),
+        radial-gradient(circle at 20% 80%, rgba(249, 115, 22, 0.3), transparent 40%),
+        radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.3), transparent 40%);
+      background-blend-mode: screen;
+    }
+  </style>
+</head>
+
+<body class="font-poppins bg-gray-900 text-white">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 w-full bg-gray-900/95 backdrop-blur-sm border-b border-gray-800 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <!-- Logo -->
+        <div class="flex-shrink-0">
+          <h1 class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+            K N Rangaswamy
+          </h1>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:block">
+          <div class="ml-10 flex items-baseline space-x-8">
+            <a href="#home"
+              class="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors">Home</a>
+            <a href="#about"
+              class="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors">About</a>
+            <a href="#skills"
+              class="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors">Skills</a>
+            <a href="#published-work"
+              class="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors">Published Work</a>
+            <a href="#gallery"
+              class="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors">Gallery</a>
+            <a href="#contact"
+              class="text-gray-300 hover:text-white px-3 py-2 text-sm font-medium transition-colors">Contact</a>
+          </div>
+        </div>
+
+        <!-- Mobile menu button -->
+        <div class="md:hidden">
+          <button id="mobile-menu-btn" class="text-gray-400 hover:text-white focus:outline-none focus:text-white">
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden">
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-900">
+        <a href="#home" class="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium">Home</a>
+        <a href="#about" class="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium">About</a>
+        <a href="#skills" class="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium">Skills</a>
+        <a href="#published-work" class="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium">Published
+          Work</a>
+        <a href="#gallery" class="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium">Gallery</a>
+        <a href="#contact" class="text-gray-300 hover:text-white block px-3 py-2 text-base font-medium">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex items-center justify-center mesh-bg">
+    <div class="text-center px-4 sm:px-6 lg:px-8">
+      <div class="max-w-4xl mx-auto">
+        <!-- Profile Image -->
+        <div class="mb-8">
+          <div class="relative inline-block">
+            <div class="w-32 h-32 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-1">
+              <img src="https://via.placeholder.com/200x200/6B7280/FFFFFF?text=KNR" alt="K N Rangaswamy"
+                class="w-full h-full rounded-full object-cover">
+            </div>
+          </div>
+        </div>
+
+        <h1 class="text-4xl sm:text-6xl font-bold mb-6">
+          <span class="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">K N Rangaswamy</span>
+        </h1>
+        <p class="text-xl sm:text-2xl text-gray-300 mb-8">
+          Passionate Journalist & Sports Columnist
+        </p>
+        <p class="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
+          Dedicated to delivering compelling stories and insightful sports analysis.
+          With expertise in anchoring, voice-over, and agricultural journalism, I bring diverse perspectives to every
+          story.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a href="#contact" class="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 
+                    px-8 py-3 rounded-full text-white font-medium transition-all duration-300 
+                    transform hover:scale-105 shadow-lg hover:shadow-xl">
+            Get In Touch
+          </a>
+          <a href="#published-work" class="border border-gray-600 hover:border-gray-500 px-8 py-3 rounded-full 
+                    text-gray-300 hover:text-white font-medium transition-all duration-300 
+                    hover:bg-gray-800">
+            Read My Work
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-4">About Me</h2>
+        <p class="text-gray-400 text-lg">Learn more about my journalism journey</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h3 class="text-2xl font-semibold mb-6">Hello! I'm K N Rangaswamy</h3>
+          <p class="text-gray-400 mb-6 leading-relaxed">
+            I'm a passionate journalist with extensive experience in sports reporting,
+            news anchoring, and agricultural journalism. My work has been featured in
+            prominent publications, and I've had the privilege of covering major sporting events
+            and delivering insightful commentary.
+          </p>
+          <p class="text-gray-400 mb-6 leading-relaxed">
+            With a background in television journalism at Vishwavani TV, I've honed my skills
+            in both print and broadcast media. I believe in the power of storytelling to
+            inform, educate, and inspire audiences across all platforms.
+          </p>
+
+          <div class="grid grid-cols-2 gap-4 mb-8">
+            <div>
+              <h4 class="font-semibold text-blue-400 mb-2">Specialization</h4>
+              <p class="text-gray-400">Sports Journalism, Cricket Analysis</p>
+            </div>
+            <div>
+              <h4 class="font-semibold text-purple-400 mb-2">Experience</h4>
+              <p class="text-gray-400">TV Anchoring, Voice-over, Writing</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-6">
+          <div class="bg-gray-700 p-6 rounded-lg text-center">
+            <i class="fas fa-newspaper text-3xl text-blue-400 mb-4"></i>
+            <h4 class="font-semibold mb-2">50+</h4>
+            <p class="text-gray-400 text-sm">Published Articles</p>
+          </div>
+          <div class="bg-gray-700 p-6 rounded-lg text-center">
+            <i class="fas fa-microphone text-3xl text-purple-400 mb-4"></i>
+            <h4 class="font-semibold mb-2">100+</h4>
+            <p class="text-gray-400 text-sm">News Reports</p>
+          </div>
+          <div class="bg-gray-700 p-6 rounded-lg text-center">
+            <i class="fas fa-broadcast-tower text-3xl text-pink-400 mb-4"></i>
+            <h4 class="font-semibold mb-2">Vishwavani TV</h4>
+            <p class="text-gray-400 text-sm">Internship</p>
+          </div>
+          <div class="bg-gray-700 p-6 rounded-lg text-center">
+            <i class="fas fa-trophy text-3xl text-yellow-400 mb-4"></i>
+            <h4 class="font-semibold mb-2">Sports</h4>
+            <p class="text-gray-400 text-sm">Columnist</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-gray-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-4">Professional Skills</h2>
+        <p class="text-gray-400 text-lg">Areas of expertise in journalism</p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+        <div class="flex flex-col items-center p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
+          <i class="fas fa-microphone text-4xl text-blue-500 mb-4"></i>
+          <span class="text-sm font-medium">Anchoring</span>
+        </div>
+        <div class="flex flex-col items-center p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
+          <i class="fas fa-volume-up text-4xl text-green-500 mb-4"></i>
+          <span class="text-sm font-medium">Voice Over</span>
+        </div>
+        <div class="flex flex-col items-center p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
+          <i class="fas fa-pen-fancy text-4xl text-purple-500 mb-4"></i>
+          <span class="text-sm font-medium">Columnist</span>
+        </div>
+        <div class="flex flex-col items-center p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
+          <i class="fas fa-edit text-4xl text-yellow-500 mb-4"></i>
+          <span class="text-sm font-medium">Writer</span>
+        </div>
+        <div class="flex flex-col items-center p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors">
+          <i class="fas fa-seedling text-4xl text-green-400 mb-4"></i>
+          <span class="text-sm font-medium">Agriculturist</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Published Work Section -->
+  <section id="published-work" class="py-20 bg-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-4">Published Work</h2>
+        <p class="text-gray-400 text-lg">Recent sports columns and news reports</p>
+      </div>
+
+      <!-- Sports Columns -->
+      <div class="mb-16">
+        <h3 class="text-2xl font-semibold mb-8 text-center">Sports Columns</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            class="bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+            <div class="h-48 bg-gradient-to-r from-blue-500 to-cyan-600 flex items-center justify-center">
+              <i class="fas fa-cricket text-6xl text-white opacity-50"></i>
+            </div>
+            <div class="p-6">
+              <h4 class="text-lg font-semibold mb-3">Asia Cup 2025: Don't Do Injustice to Wicket-keeper Sanju Samson
+              </h4>
+              <p class="text-gray-400 mb-4 text-sm">Analysis on team selection and Sanju Samson's role in upcoming Asia
+                Cup.</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="px-3 py-1 bg-blue-600 text-xs rounded-full">Cricket</span>
+                <span class="px-3 py-1 bg-green-600 text-xs rounded-full">Asia Cup</span>
+              </div>
+              <a href="https://vishwavani.news/sports/cricket/asia-cup-2025-dont-do-injustice-to-wicket-kepper-sanju-samson-for-shubman-gill-53239.html"
+                target="_blank" class="text-blue-400 hover:text-blue-300 text-sm font-medium">Read Article</a>
+            </div>
+          </div>
+
+          <div
+            class="bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+            <div class="h-48 bg-gradient-to-r from-green-500 to-teal-600 flex items-center justify-center">
+              <i class="fas fa-trophy text-6xl text-white opacity-50"></i>
+            </div>
+            <div class="p-6">
+              <h4 class="text-lg font-semibold mb-3">Shubman Gill Needs 89 Runs to Break Don Bradman's Record</h4>
+              <p class="text-gray-400 mb-4 text-sm">Historic achievement potential in the upcoming 5th Test match.</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="px-3 py-1 bg-purple-600 text-xs rounded-full">Records</span>
+                <span class="px-3 py-1 bg-yellow-600 text-xs rounded-full">Test Cricket</span>
+              </div>
+              <a href="https://vishwavani.news/sports/cricket/ind-vs-eng-shubman-gill-needs-89-runs-in-5th-test-to-break-don-bradmans-record-become-first-player-in-the-world-to-50193.html"
+                target="_blank" class="text-blue-400 hover:text-blue-300 text-sm font-medium">Read Article</a>
+            </div>
+          </div>
+
+          <div
+            class="bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+            <div class="h-48 bg-gradient-to-r from-purple-500 to-pink-600 flex items-center justify-center">
+              <i class="fas fa-medal text-6xl text-white opacity-50"></i>
+            </div>
+            <div class="p-6">
+              <h4 class="text-lg font-semibold mb-3">Powerful Reminder of Sachin: Tendulkar Lauds Rishabh Pant</h4>
+              <p class="text-gray-400 mb-4 text-sm">Analysis of Rishabh Pant's brave comeback performance post injury.
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="px-3 py-1 bg-blue-600 text-xs rounded-full">Player Analysis</span>
+                <span class="px-3 py-1 bg-red-600 text-xs rounded-full">Comeback</span>
+              </div>
+              <a href="https://vishwavani.news/sports/cricket/ind-vs-eng-powerful-reminder-of-sachin-tendulkar-lauds-rishabh-pant-for-brave-half-century-post-nasty-injury-49865.html"
+                target="_blank" class="text-blue-400 hover:text-blue-300 text-sm font-medium">Read Article</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- More Articles Button -->
+      <div class="text-center">
+        <button onclick="showMoreArticles()" id="show-more-btn" class="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 
+                       px-8 py-3 rounded-full text-white font-medium transition-all duration-300 
+                       transform hover:scale-105 shadow-lg hover:shadow-xl">
+          Show More Articles
+        </button>
+      </div>
+
+      <!-- Hidden Articles -->
+      <div id="more-articles" class="hidden mt-12">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            class="bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+            <div class="h-48 bg-gradient-to-r from-red-500 to-orange-600 flex items-center justify-center">
+              <i class="fas fa-newspaper text-6xl text-white opacity-50"></i>
+            </div>
+            <div class="p-6">
+              <h4 class="text-lg font-semibold mb-3">Duleep Trophy 2025: Test Specialists Left Out</h4>
+              <p class="text-gray-400 mb-4 text-sm">Analysis of squad selection for upcoming Duleep Trophy.</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="px-3 py-1 bg-indigo-600 text-xs rounded-full">Duleep Trophy</span>
+              </div>
+              <a href="https://vishwavani.news/sports/cricket/duleep-trophy-2025-test-specilist-cheteshwar-pujara-ajinkya-rahane-left-out-of-duleep-trophy-squad-50601.html"
+                target="_blank" class="text-blue-400 hover:text-blue-300 text-sm font-medium">Read Article</a>
+            </div>
+          </div>
+
+          <div
+            class="bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+            <div class="h-48 bg-gradient-to-r from-teal-500 to-blue-600 flex items-center justify-center">
+              <i class="fas fa-quote-left text-6xl text-white opacity-50"></i>
+            </div>
+            <div class="p-6">
+              <h4 class="text-lg font-semibold mb-3">Sourav Ganguly on Anshul Kamboj</h4>
+              <p class="text-gray-400 mb-4 text-sm">Ex-BCCI President's perspective on young talent evaluation.</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="px-3 py-1 bg-pink-600 text-xs rounded-full">Expert Opinion</span>
+              </div>
+              <a href="https://vishwavani.news/sports/cricket/ind-vs-eng-dont-judge-anshul-kamboj-based-on-one-test-match-says-ex-bcci-president-sourav-ganguly-50511.html"
+                target="_blank" class="text-blue-400 hover:text-blue-300 text-sm font-medium">Read Article</a>
+            </div>
+          </div>
+
+          <div
+            class="bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+            <div class="h-48 bg-gradient-to-r from-yellow-500 to-red-600 flex items-center justify-center">
+              <i class="fas fa-chart-line text-6xl text-white opacity-50"></i>
+            </div>
+            <div class="p-6">
+              <h4 class="text-lg font-semibold mb-3">Gus Atkinson Creates History</h4>
+              <p class="text-gray-400 mb-4 text-sm">First player after 129 years to achieve stunning feat.</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="px-3 py-1 bg-gold-600 text-xs rounded-full">Historic Record</span>
+              </div>
+              <a href="https://vishwavani.news/sports/cricket/eng-vs-ind-gus-atkinson-creates-history-becomes-first-player-in-the-world-after-129-years-to-achieve-stunning-feat-50603.html"
+                target="_blank" class="text-blue-400 hover:text-blue-300 text-sm font-medium">Read Article</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Gallery Section -->
+  <section id="gallery" class="py-20 bg-gray-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-4">Photo Gallery</h2>
+        <p class="text-gray-400 text-lg">Moments from my journalism journey</p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div
+          class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+          <div class="w-full h-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
+            <i class="fas fa-camera text-3xl text-white opacity-50"></i>
+          </div>
+        </div>
+        <div
+          class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+          <div class="w-full h-full bg-gradient-to-br from-green-500 to-blue-600 flex items-center justify-center">
+            <i class="fas fa-microphone text-3xl text-white opacity-50"></i>
+          </div>
+        </div>
+        <div
+          class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+          <div class="w-full h-full bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center">
+            <i class="fas fa-trophy text-3xl text-white opacity-50"></i>
+          </div>
+        </div>
+        <div
+          class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+          <div class="w-full h-full bg-gradient-to-br from-yellow-500 to-red-600 flex items-center justify-center">
+            <i class="fas fa-broadcast-tower text-3xl text-white opacity-50"></i>
+          </div>
+        </div>
+        <div
+          class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+          <div class="w-full h-full bg-gradient-to-br from-teal-500 to-blue-600 flex items-center justify-center">
+            <i class="fas fa-newspaper text-3xl text-white opacity-50"></i>
+          </div>
+        </div>
+        <div
+          class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+          <div class="w-full h-full bg-gradient-to-br from-red-500 to-orange-600 flex items-center justify-center">
+            <i class="fas fa-pen text-3xl text-white opacity-50"></i>
+          </div>
+        </div>
+        <div
+          class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+          <div class="w-full h-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
+            <i class="fas fa-video text-3xl text-white opacity-50"></i>
+          </div>
+        </div>
+        <div
+          class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+          <div class="w-full h-full bg-gradient-to-br from-pink-500 to-red-600 flex items-center justify-center">
+            <i class="fas fa-interview text-3xl text-white opacity-50"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-12">
+        <p class="text-gray-400">Photos will be added soon. Stay tuned for updates!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-gray-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl sm:text-4xl font-bold mb-4">Get In Touch</h2>
+        <p class="text-gray-400 text-lg">Let's discuss your story or collaboration opportunities</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-2xl font-semibold mb-8">Contact Information</h3>
+
+          <div class="space-y-6">
+            <div class="flex items-center">
+              <i class="fas fa-envelope text-blue-400 text-xl mr-4"></i>
+              <div>
+                <p class="font-medium">Email</p>
+                <p class="text-gray-400">yadavranga262@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="flex items-center">
+              <i class="fas fa-briefcase text-green-400 text-xl mr-4"></i>
+              <div>
+                <p class="font-medium">Experience</p>
+                <p class="text-gray-400">Vishwavani TV Intern</p>
+              </div>
+            </div>
+
+            <div class="flex items-center">
+              <i class="fas fa-newspaper text-purple-400 text-xl mr-4"></i>
+              <div>
+                <p class="font-medium">Specialization</p>
+                <p class="text-gray-400">Sports Journalism & Analysis</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8">
+            <h4 class="font-semibold mb-4">Professional Skills</h4>
+            <div class="flex flex-wrap gap-3">
+              <span class="px-4 py-2 bg-blue-600 text-sm rounded-full">Anchoring</span>
+              <span class="px-4 py-2 bg-green-600 text-sm rounded-full">Voice Over</span>
+              <span class="px-4 py-2 bg-purple-600 text-sm rounded-full">Sports Writing</span>
+              <span class="px-4 py-2 bg-yellow-600 text-sm rounded-full">Agriculture</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <form class="space-y-6">
+            <div>
+              <input type="text" placeholder="Your Name" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg 
+                            focus:outline-none focus:border-blue-500 transition-colors text-white">
+            </div>
+
+            <div>
+              <input type="email" placeholder="Your Email" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg 
+                            focus:outline-none focus:border-blue-500 transition-colors text-white">
+            </div>
+
+            <div>
+              <input type="text" placeholder="Subject" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg 
+                            focus:outline-none focus:border-blue-500 transition-colors text-white">
+            </div>
+
+            <div>
+              <textarea placeholder="Your Message" rows="6"
+                class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg 
+                               focus:outline-none focus:border-blue-500 transition-colors resize-none text-white"></textarea>
+            </div>
+
+            <button type="submit" class="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 
+                           py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 border-t border-gray-700 py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p class="text-gray-400">
+          © 2025 K N Rangaswamy. Passionate about journalism and storytelling.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Close mobile menu when clicking on a link
+    const mobileLinks = mobileMenu.querySelectorAll('a');
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Add scroll effect to navbar
+    window.addEventListener('scroll', () => {
+      const nav = document.querySelector('nav');
+      if (window.scrollY > 100) {
+        nav.classList.add('bg-gray-900');
+        nav.classList.remove('bg-gray-900/95');
+      } else {
+        nav.classList.add('bg-gray-900/95');
+        nav.classList.remove('bg-gray-900');
+      }
+    });
+
+    // Show more articles functionality
+    function showMoreArticles() {
+      const moreArticles = document.getElementById('more-articles');
+      const showMoreBtn = document.getElementById('show-more-btn');
+
+      if (moreArticles.classList.contains('hidden')) {
+        moreArticles.classList.remove('hidden');
+        showMoreBtn.textContent = 'Show Less Articles';
+      } else {
+        moreArticles.classList.add('hidden');
+        showMoreBtn.textContent = 'Show More Articles';
+      }
+    }
+  </script>
+</body>
+
+</html>

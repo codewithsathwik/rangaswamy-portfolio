@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K N Rangaswamy</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body class="text-white font-poppins">
+
+    <!-- navbar -->
+    <header class="bg-[#1a1a1a] sticky top-0 left-0 z-10">
+        <nav class="flex justify-around gap-3 items-center h-[10vh]  
+        md:w-[80vw] md:mx-auto md:justify-between relative top-0">
+            <div class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                K N Rangaswamy
+            </div>
+            <div>
+                <ul class="hidden justify-around items-center md:flex gap-1.5">
+                    <li class="px-4 hover:text-gray-300 transition"><a href="#home">Home</a></li>
+                    <li class="px-4 hover:text-gray-300 transition"><a href="#about">About</a></li>
+                    <li class="px-4 hover:text-gray-300 transition"><a href="#skills">Skills</a></li>
+                    <li class="px-4 hover:text-gray-300 transition"><a href="#works">Works</a></li>
+                    <li class="px-4 hover:text-gray-300 transition"><a href="#gallery">Gallery</a></li>
+                    <li class="px-4 hover:text-gray-300 transition"><a href="#contact">Contact</a></li>
+                </ul>
+                <!-- menu button -->
+                <button class="block md:hidden cursor-pointer" id="menu-btn">
+                    <img src="/icons/open-menu.png" alt="" class="h-[25px] ">
+                </button>
+            </div>
+
+            <!-- mobile nav -->
+            <div class="hidden md:hidden absolute top-[10vh] h-fit min-w-full bg-[#303030]" id="nav-mb">
+                <ul>
+                    <li class="block p-4 text-center hover:bg-gray-900"><a href="#home">Home</a></li>
+                    <li class="block p-4 text-center hover:bg-gray-900"><a href="#about">About</a></li>
+                    <li class="block p-4 text-center hover:bg-gray-900"><a href="#skills">Skills</a></li>
+                    <li class="block p-4 text-center hover:bg-gray-900"><a href="#works">Works</a></li>
+                    <li class="block p-4 text-center hover:bg-gray-900"><a href="#gallery">Gallery</a></li>
+                    <li class="block p-4 text-center hover:bg-gray-900"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar -->
+
+    <main class="">
+        <!-- hero page--main section -->
+        <section id="home"
+            class="flex flex-col md:justify-center justify-evenly items-center lg:gap-8 max-w-full mx-auto bg-gray-800 pb-2.5 max-lg:h-max min-h-[90vh]">
+            <div class="h-52  w-[80vw] flex justify-center items-center ">
+                <img src="/Assets/photo-gallery/hero-img.jpg" alt="hero-img" class="h-[100%] rounded-full ">
+            </div>
+            <div class="flex justify-center items-center flex-col text-center w-[80vw]">
+                <h1
+                    class="text-3xl font-bold bg-gradient-to-r from-blue-300 to-purple-500 bg-clip-text text-transparent lg:text-6xl lg:pb-6">
+                    K N Rangaswamy</h1>
+                <p class=" lg:text-2xl mt-2 lg:mt-0">Passionate Journalist & Sports Columnist</p>
+            </div>
+
+            <div class="flex justify-center items-center flex-col text-center w-[80vw]">
+                <p class="text-center text-gray-300 lg:text-[19px] lg:w-[70%]">Dedicated to delivering compelling
+                    stories and insightful sports analysis. With expertise in anchoring, voice-over, and agricultural
+                    journalism, I bring diverse perspectives to every story.</p>
+            </div>
+            <div class="flex gap-5 ">
+                <button
+                    class="px-[10px] py-[7px] rounded-3xl cursor-pointer bg-blue-500 hover:bg-blue-700 hover:scale-110 transition duration-500 ease-in-out"
+                    onclick="location.href='#contact'">Get
+                    In Touch</button>
+                <button
+                    class="px-[10px] py-[7px] rounded-3xl cursor-pointer border border-amber-50 hover:scale-110 transition duration-500 ease-in-out"
+                    onclick="location.href='#works'">Read
+                    My Work</button>
+            </div>
+        </section>
+        <!-- hero page--main section -->
+
+
+
+        <!-- about section  -->
+        <section id="about"
+            class="bg-[#1a1a1a] max-lg:h-max md:min-h-[90vh] max-w-full flex flex-col justify-start items-center pt-3.5 md:gap-[40px] gap-2.5 md:pt-10 pb-5">
+            <div class="w-[80vw] mx-auto text-center flex flex-col gap-2.5">
+                <h2 class="text-3xl font-bold">About Me</h2>
+                <p class="text-gray-300">Learn more about my journalism journey</p>
+            </div>
+            <div class="w-[80vw] mx-auto flex flex-col md:flex-row justify-around items-center">
+                <div class="md:w-[45%] flex flex-col md:gap-[15px] gap-2.5">
+                    <h2 class="font-bold md:text-2xl">Hello! I'm K N Rangaswamy</h2>
+                    <p class="text-gray-300">I'm a passionate journalist with extensive experience in sports reporting,
+                        news anchoring, and agricultural journalism. My work has been featured in prominent
+                        publications, and I've had the privilege of covering major sporting events and delivering
+                        insightful commentary.</p>
+                    <p class="text-gray-300">With a background in television journalism at Vishwavani TV, I've honed my
+                        skills in both print and broadcast media. I believe in the power of storytelling to inform,
+                        educate, and inspire audiences across all platforms.</p>
+                    <div class="md:flex md:gap-10 ">
+                        <div class="mb-3">
+                            <span class="text-blue-500 font-bold">Specialization</span>
+                            <p class="text-gray-300">Sports Journalism, Political analysis, Cricket Analysis.</p>
+                        </div>
+                        <div class="mb-3">
+                            <span class="text-purple-500 font-bold">Experience</span>
+                            <p class="text-gray-300">TV Anchoring, Voice-over, Writing.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- about section grid -->
+                <div class="grid grid-cols-2 gap-2 p-2.5 text-center md:gap-7">
+                    <div class="bg-gray-800 p-7 flex flex-col gap-1 justify-center items-center rounded-2xl">
+                        <img src="icons/news.png" alt="" class="h-[45px]">
+                        <h2>50+</h2>
+                        <P class="text-gray-400">Published Articles</P>
+                    </div>
+                    <div class="bg-gray-800 p-7 flex flex-col gap-1 justify-center items-center rounded-2xl">
+                        <img src="/icons/graduation-hat.png" alt="" class="h-[45px]">
+                        <h2>UG Journalism (2024-27)</h2>
+                        <P class="text-gray-400">SDM College, Ujire</P>
+                    </div>
+                    <div class="bg-gray-800 p-7 flex flex-col gap-1 justify-center items-center rounded-2xl">
+                        <img src="/icons/journalist.png" alt="" class="h-[45px]">
+                        <h2>Vishwavani TV</h2>
+                        <P class="text-gray-400">Internship</P>
+                    </div>
+                    <div class="bg-gray-800 p-7 flex flex-col gap-1 justify-center items-center rounded-2xl"">
+                        <img src=" icons/cup.png" alt="" class="h-[45px]">
+                        <h2>Sports</h2>
+                        <P class="text-gray-400">Columnist</P>
+                    </div>
+                </div>
+                <!-- about section grid -->
+            </div>
+        </section>
+        <!-- about section  -->
+
+        <!-- skills section  -->
+        <section id="skills" class="bg-gray-800 max-lg:h-max md:min-h-[45vh] max-w-full flex flex-col gap-[45px] py-10">
+            <div class="w-[80vw] mx-auto text-center flex flex-col gap-2.5">
+                <h2 class="text-3xl font-bold">Professional Skills</h2>
+                <p class="text-gray-300">Areas of expertise in journalism</p>
+            </div>
+
+            <!-- skills section grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 w-[70vw] mx-auto gap-4 text-center">
+                <div class="flex flex-col justify-center items-center bg-gray-700 hover:bg-gray-500 p-[25px]
+                rounded-2xl gap-2.5 hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="/icons/skills/news-reporter.png" alt="" class="h-[65px]">
+                    <h3>Anchoring</h3>
+                </div>
+                <div class="flex flex-col justify-center items-center bg-gray-700 hover:bg-gray-500 p-[25px]
+                rounded-2xl gap-2.5 hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="/icons/skills/microphone.png" alt="" class="h-[65px]">
+                    <h3>Voice Over</h3>
+                </div>
+                <div class="flex flex-col justify-center items-center bg-gray-700 hover:bg-gray-500 p-[25px]
+                rounded-2xl gap-2.5 hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="/icons/skills/pen-tool.png" alt="" class="h-[65px]">
+                    <h3>Writer & Columnist</h3>
+                </div>
+                <div class="flex flex-col justify-center items-center bg-gray-700 hover:bg-gray-500 p-[25px]
+                rounded-2xl gap-2.5 hover:scale-105 transition duration-300 ease-in-out">
+                    <img src="/icons/skills/agriculture.png" alt="" class="h-[65px]">
+                    <h3>Agriculture</h3>
+                </div>
+            </div>
+            <!-- skills section grid -->
+        </section>
+        <!-- skills section  -->
+
+        <!-- Works section  -->
+        <section id="works"
+            class="bg-[#1a1a1a] max-lg:h-max md:min-h-[90vh] max-w-full flex flex-col gap-[45px] py-10 ">
+            <div class="w-[80vw] mx-auto text-center flex flex-col gap-2.5">
+                <h2 class="text-3xl font-bold">Published Works</h2>
+                <p class="text-gray-300">Recent sports columns and news reports</p>
+            </div>
+
+            <div id="sportscolumns" class="w-[80vw] mx-auto text-center flex flex-col gap-2.5">
+                <h2 class="text-2xl font-semibold">Sports Column</h2>
+                <div class="grid sm:grid-cols-3 grid-cols-1 gap-5">
+                    <div
+                        class="bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 relative sm:col-start-2 sm:col-end-3">
+                        <div class="h-48 bg-cover flex items-center justify-center">
+                            <img src="/Assets/web/cloumn1.jpeg" alt="" class="absolute max-md:top-0">
+                        </div>
+                        <div class="p-6 max-lg:pt-0">
+                            <h4 class="text-lg font-semibold mb-3">ಏಷ್ಯಾ ಕಪ್‌ ಟೂರ್ನಿಯಲ್ಲಿ ಆಡಲಿರುವ ಶುಭಮನ್‌ ಗಿಲ್‌, ಸಂಜು
+                                ಸ್ಯಾಮ್ಸನ್‌.</h4>
+
+                            <p class="text-gray-300 mb-2">ಮುಂಬರುವ 2025ರ ಏಷ್ಯಾ ಕಪ್‌ ಟೂರ್ನಿ ಸೆಪ್ಟಂಬರ್‌ 9 ರಂದು ಆರಂಭವಾಗಲಿದೆ.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-3 py-1 bg-purple-600 text-xs rounded-full">Records</span>
+                                <span class="px-3 py-1 bg-yellow-600 text-xs rounded-full">Test Cricket</span>
+                            </div>
+                            <a href="https://vishwavani.news/sports/cricket/asia-cup-2025-dont-do-injustice-to-wicket-kepper-sanju-samson-for-shubman-gill-53239.html?fbclid=PAdGRjcAMlFPxleHRuA2FlbQIxMQABp78Gqc9pYt8Dz_8K-C9GUB4gNW77nVGMqL54JsBjhTM8BxdohgMr664ulpFM_aem_DCgOpAFI_hiq5v4kVslzyA"
+                                target="_blank" class="text-blue-400 hover:text-blue-300 text-sm font-medium">Read
+                                Article</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="webarticles" class="w-[80vw] mx-auto text-center flex flex-col gap-5">
+                <h2 class="text-2xl font-semibold">Web Articles</h2>
+                <div class="grid sm:grid-cols-3 grid-cols-1 gap-5">
+                    <div
+                        class="bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 relative">
+                        <div class="h-48 bg-cover flex items-center justify-center">
+                            <img src="/Assets/web/web.jpeg" alt="" class="absolute max-md:top-0">
+                        </div>
+                        <div class="p-6 max-lg:pt-0">
+                            <h4 class="text-lg font-semibold mb-3">IND vs ENG: ಐದನೇ ಟೆಸ್ಟ್‌ ಪಂದ್ಯದಲ್ಲಿ ರಿಷಭ್ ಪಂತ್‌
+                                ಸ್ಥಾನಕ್ಕೆ ಯಾರು ವಿಕೆಟ್‌ ಕೀಪರ್‌?</h4>
+
+                            <p class="text-gray-300 mb-2">ಮುಂಬರುವ 2025ರ ಏಷ್ಯಾ ಕಪ್‌ ಟೂರ್ನಿ ಸೆಪ್ಟಂಬರ್‌ 9 ರಂದು ಆರಂಭವಾಗಲಿದೆ.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-3 py-1 bg-purple-600 text-xs rounded-full">Records</span>
+                                <span class="px-3 py-1 bg-yellow-600 text-xs rounded-full">Test Cricket</span>
+                            </div>
+                            <a href="https://vishwavani.news/latest-news/ind-vs-eng-who-will-replace-rishabh-pant-in-india-squad-for-england-tests-27-year-old-set-for-comeback-after-652-days-49860.html?fbclid=PAdGRjcAMlFTNleHRuA2FlbQIxMQABp4pRapTTGkHcdGe4XChxrEow6qrtQ7L4mTr4sUuBwMMk5wzJd-bDR5mOuo3a_aem_TxVvYMV_MuPVCDAVO0ZHmw"
+                                target="_blank" class="text-blue-400 hover:text-blue-300 text-sm font-medium">Read
+                                Article</a>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 relative">
+                        <div class="h-48 bg-cover flex items-center justify-center">
+                            <img src="/Assets/web/web1.jpeg" alt="" class="absolute max-md:top-0">
+                        </div>
+                        <div class="p-6 max-lg:pt-0">
+                            <h4 class="text-lg font-semibold mb-3">ENG vs IND: ನಾಲ್ಕನೇ ಟೆಸ್ಟ್‌ಗೆ ಭಾರತದ ಪ್ಲೇಯಿಂಗ್‌ XI
+                                ಆರಿಸಿದ ಸಂಜಯ್‌ ಮಾಂಜ್ರೇಕರ್‌!</h4>
+
+                            <p class="text-gray-300 mb-2">ಭಾರತ ತಂಡದ ಪ್ಲೇಯಿಂಗ್‌ XI ಆರಿಸಿದ ಸಂಜಯ್‌ ಮಾಂಜ್ರೇಕರ್‌.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-3 py-1 bg-purple-600 text-xs rounded-full">Records</span>
+                                <span class="px-3 py-1 bg-yellow-600 text-xs rounded-full">Test Cricket</span>
+                            </div>
+                            <a href="https://vishwavani.news/sports/cricket/eng-vs-ind-sanjay-manjrekar-picks-indias-playing-11-for-eng-vs-ind-2025-4th-test-drops-karun-nair-49661.html?fbclid=PAdGRjcAMlFUtleHRuA2FlbQIxMQABp32fVYdF33z10Ub9e8pyH71fz8DZnC9m0VAcf0D_ErFH2vsDaWpAluZ_TMry_aem_sTXI6a_RdXx0KhVMxRH1qg"
+                                target="_blank" class="text-blue-400 hover:text-blue-300 text-sm font-medium">Read
+                                Article</a>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 relative">
+                        <div class="h-48 bg-cover flex items-center justify-center">
+                            <img src="/Assets/web/web3.jpeg" alt="" class="absolute max-md:top-0">
+                        </div>
+                        <div class="p-6 max-lg:pt-0">
+                            <h4 class="text-lg font-semibold mb-3">ಗಾಯದ ಹೊರತಾಗಿಯೂ ಅರ್ಧಶತಕ ಬಾರಿಸಿದ ರಿಷಭ್‌ ಪಂತ್‌ಗೆ
+                                ಕ್ರಿಕೆಟ್‌ ದೇವರಿಂದ ಮೆಚ್ಚುಗೆ!</h4>
+
+                            <p class="text-gray-300 mb-2">ಗಾಯದ ಹೊರತಾಗಿಯೂ ಅರ್ಧಶತಕ ಬಾರಿಸಿದ ಪಂತ್‌ಗೆ ಸಚಿನ್‌ ಮೆಚ್ಚುಗೆ.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-3 py-1 bg-purple-600 text-xs rounded-full">Records</span>
+                                <span class="px-3 py-1 bg-yellow-600 text-xs rounded-full">Test Cricket</span>
+                            </div>
+                            <a href="https://vishwavani.news/sports/cricket/ind-vs-eng-powerful-reminder-of-sachin-tendulkar-lauds-rishabh-pant-for-brave-half-century-post-nasty-injury-49865.html?fbclid=PAdGRjcAMlFVpleHRuA2FlbQIxMQABp34pVQxa_5eMir16ymAop9x3jq9yRAcmBpN9gCox72i_IImWK2ZyH1bEWvE0_aem_DZRr7EFEtijbBWFMjh3now"
+                                target="_blank" class="text-blue-400 hover:text-blue-300 text-sm font-medium">Read
+                                Article</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <button
+                        class="px-[10px] py-[7px] rounded-3xl cursor-pointer bg-blue-500 hover:bg-blue-700 hover:scale-110 transition duration-500 ease-in-out"
+                        onclick="location.href='webarticles.html'">See
+                        More Articles</button>
+                </div>
+            </div>
+            <!-- <div id="newsarticles" class="text-center">
+                <h2 class="text-2xl font-semibold">Web Articles</h2>
+            </div> -->
+        </section>
+
+        <!-- photo gallery section -->
+        <section id="gallery"
+            class="bg-gray-800 max-lg:h-max md:min-h-[45vh] max-w-full flex flex-col gap-[45px] py-10">
+            <div class="w-[80vw] mx-auto text-center flex flex-col gap-2.5">
+                <h2 class="text-3xl font-bold">Photo Gallery</h2>
+                <p class="text-gray-300">Moments from my journalism journey</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-[80vw] mx-auto">
+                <div
+                    class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="w-full h-full flex items-center justify-center">
+                        <img src="/Assets/photo-gallery/1.jpg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="w-full h-full flex items-center justify-center">
+                        <img src="/Assets/photo-gallery/2.jpg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="w-full h-full flex items-center justify-center">
+                        <img src="/Assets/photo-gallery/3.jpg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="w-full h-full flex items-center justify-center">
+                        <img src="/Assets/photo-gallery/7.jpg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="w-full h-full flex items-center justify-center">
+                        <img src="/Assets/photo-gallery/8.jpg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="w-full h-full flex items-center justify-center">
+                        <img src="/Assets/photo-gallery/10.jpg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="w-full h-full flex items-center justify-center">
+                        <img src="/Assets/photo-gallery/11.jpg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="w-full h-full flex items-center justify-center">
+                        <img src="/Assets/photo-gallery/15.jpg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="w-full h-full flex items-center justify-center">
+                        <img src="/Assets/photo-gallery/24.jpg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="w-full h-full flex items-center justify-center">
+                        <img src="/Assets/photo-gallery/18.jpg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="w-full h-full flex items-center justify-center">
+                        <img src="/Assets/photo-gallery/22.jpg" alt="">
+                    </div>
+                </div>
+                <div
+                    class="aspect-square bg-gray-700 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300">
+                    <div class="w-full h-full flex items-center justify-center">
+                        <img src="/Assets/photo-gallery/13.jpg" alt="clg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-2 w-[80vw] mx-auto">
+                <p class="text-gray-300"> More photos will be added soon. Stay tuned for updates!</p>
+            </div>
+        </section>
+        <!-- photo gallery section -->
+
+        <!-- contact section -->
+        <section id="contact"
+            class="bg-[#1a1a1a] max-lg:h-max md:min-h-[45vh] max-w-full flex flex-col gap-[45px] py-10">
+            <div class="w-[80vw] mx-auto text-center flex flex-col gap-2.5">
+                <h2 class="text-3xl font-bold">Contact Me</h2>
+                <p class="text-gray-300">Let's discuss your story or collaboration opportunities</p>
+            </div>
+            <div class="w-[80vw] md:max-w-[50vw] mx-auto">
+                <form class="space-y-6" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="67d2a7d5-8191-4e37-958a-1066c8761bed">
+                    <div>
+                        <input type="text" placeholder="Your Name" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg 
+                            focus:outline-none focus:border-blue-500 transition-colors text-white mx-auto" id="name" name="name" required>
+                    </div>
+
+                    <div>
+                        <input type="email" placeholder="Your Email" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg 
+                            focus:outline-none focus:border-blue-500 transition-colors text-white" id="email" name="email" required>
+                    </div>
+
+                    <div>
+                        <input type="text" placeholder="Subject" class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg 
+                            focus:outline-none focus:border-blue-500 transition-colors text-white" id="subject" name="subject" required>
+                    </div>
+
+                    <div>
+                        <textarea placeholder="Your Message" rows="6" name="message"
+                            class="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg 
+                               focus:outline-none focus:border-blue-500 transition-colors resize-none text-white" id="message" requireds></textarea>
+                    </div>
+
+                    <input type="hidden" name="redirect" value="">
+
+                    <button type="submit" name="submit"
+                        class="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 
+                           py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 cursor-pointer" type="button">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+        </section>
+        <!-- contact section -->
+    </main>
+
+    <footer class="bg-gray-800 py-5 text-center flex flex-col gap-1.5">
+        <div class="w-[80vw] mx-auto flex justify-center items-center gap-2.5">
+            <div>
+                <a href="https://www.linkedin.com/in/k-n-rangaswamy-chitradurga-57a43a377/"><img
+                        src="icons/linkedin.png" alt="linkedin" class="h-[30px]"></a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/k_n_ranganath_official?igsh=M2UwdWxqcGxxM2ly"><img
+                        src="icons/instagram.png" alt="instagram" class="h-[30px]"></a>
+            </div>
+            <div>
+                <a href="mailto:knranga.work@gmail.com" target="_blank"><img src="icons/gmail.png"
+                        alt="instagram" class="h-[30px]"></a>
+            </div>
+        </div>
+        <div class="w-[85vw] mx-auto">
+            <p class="text-[13px] md:text-[16px]">&copy;2025 K N Rangaswamy. Passionate about journalism and
+                storytelling.</p>
+        </div>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
