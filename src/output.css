@@ -461,6 +461,12 @@
   .w-full {
     width: 100%;
   }
+  .w-max {
+    width: max-content;
+  }
+  .w-min {
+    width: min-content;
+  }
   .w-screen {
     width: 100vw;
   }
@@ -490,6 +496,9 @@
   }
   .max-w-full {
     max-width: 100%;
+  }
+  .max-w-max {
+    max-width: max-content;
   }
   .min-w-full {
     min-width: 100%;
@@ -647,6 +656,10 @@
   }
   .rounded-xl {
     border-radius: var(--radius-xl);
+  }
+  .rounded-t-xl {
+    border-top-left-radius: var(--radius-xl);
+    border-top-right-radius: var(--radius-xl);
   }
   .border {
     border-style: var(--tw-border-style);
@@ -904,6 +917,12 @@
   }
   .pt-3\.5 {
     padding-top: calc(var(--spacing) * 3.5);
+  }
+  .pb-1 {
+    padding-bottom: calc(var(--spacing) * 1);
+  }
+  .pb-1\.5 {
+    padding-bottom: calc(var(--spacing) * 1.5);
   }
   .pb-2 {
     padding-bottom: calc(var(--spacing) * 2);
@@ -1304,6 +1323,16 @@
   .sm\:max-w-\[60vw\] {
     @media (width >= 40rem) {
       max-width: 60vw;
+    }
+  }
+  .sm\:max-w-\[400px\] {
+    @media (width >= 40rem) {
+      max-width: 400px;
+    }
+  }
+  .sm\:max-w-\[500px\] {
+    @media (width >= 40rem) {
+      max-width: 500px;
     }
   }
   .sm\:grid-cols-1 {
