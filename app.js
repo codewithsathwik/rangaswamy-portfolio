@@ -10,3 +10,9 @@ menuBtn.addEventListener("click", () => {
         menuCtrl = true;
     }
 })
+
+let loadpg = document.querySelector("#load-page");
+
+window.addEventListener("load",()=>{
+    loadpg.style.display = "none"
+})
