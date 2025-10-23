@@ -1,0 +1,33 @@
+@keyframes slide-bottom-normal {
+  0% {
+    top: -100vh;
+  }
+  100% {
+    top: 10vh;
+  }
+}
+
+@keyframes slide-top-normal {
+  0% {
+    top: 10vh;
+  }
+  100% {
+    top: -100vh;
+  }
+}
+
+#nav-mb {
+  top: -100vh;
+  left: 0;
+  right: 0;
+  transition: top 1s ease; 
+  z-index: 200;
+}
+
+.ani-dwn {
+  animation: slide-bottom-normal 1s ease forwards;
+}
+
+.ani-up {
+  animation: slide-top-normal 1s ease forwards;
+}

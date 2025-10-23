@@ -12,7 +12,7 @@
 <body class="text-white font-poppins">
 
     <!-- navbar -->
-    <header class="bg-[#1a1a1a] sticky top-0 left-0 z-10">
+    <header class="bg-[#1a1a1a] sticky top-0 left-0 z-[100]">
         <nav class="flex justify-around gap-3 items-center h-[10vh]  
         md:w-[80vw] md:mx-auto md:justify-between relative top-0">
             <div class="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
@@ -33,19 +33,24 @@
                 </button>
             </div>
 
-            <!-- mobile nav -->
-            <div class="hidden md:hidden absolute top-[10vh] h-fit min-w-full bg-[#303030]" id="nav-mb">
-                <ul>
-                    <li class="block p-4 text-center hover:bg-gray-900"><a href="/index.html#home">Home</a></li>
-                    <li class="block p-4 text-center hover:bg-gray-900"><a href="/index.html#about">About</a></li>
-                    <li class="block p-4 text-center hover:bg-gray-900"><a href="/index.html#skills">Skills</a></li>
-                    <li class="block p-4 text-center hover:bg-gray-900"><a href="/index.html#works">Works</a></li>
-                    <li class="block p-4 text-center hover:bg-gray-900"><a href="/index.html#gallery">Gallery</a></li>
-                    <li class="block p-4 text-center hover:bg-gray-900"><a href="/index.html#contact">Contact</a></li>
-                </ul>
-            </div>
+
+
+
         </nav>
+
     </header>
+    <!-- mobile nav -->
+    <div class=" md:hidden fixed top-[10vh] h-fit min-w-full bg-[#303030]" id="nav-mb">
+        <ul>
+            <li class="block p-4 text-center hover:bg-gray-900"><a href="/index.html#home">Home</a></li>
+            <li class="block p-4 text-center hover:bg-gray-900"><a href="/index.html#about">About</a></li>
+            <li class="block p-4 text-center hover:bg-gray-900"><a href="/index.html#skills">Skills</a></li>
+            <li class="block p-4 text-center hover:bg-gray-900"><a href="/index.html#works">Works</a></li>
+            <li class="block p-4 text-center hover:bg-gray-900"><a href="/index.html#gallery">Gallery</a></li>
+            <li class="block p-4 text-center hover:bg-gray-900"><a href="/index.html#contact">Contact</a></li>
+        </ul>
+    </div>
+
     <!-- navbar -->
     <section id="works" class="bg-[#1a1a1a] max-lg:h-max md:min-h-[90vh] max-w-full flex flex-col gap-[45px] py-10 ">
         <div id="webarticles" class="w-[80vw] mx-auto text-center flex flex-col gap-5">
