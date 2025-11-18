@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@500&display=swap');
+
+
+@keyframes slide-bottom-normal {
+  0% {
+    top: -100vh;
+  }
+  100% {
+    top: 10vh;
+  }
+}
+
+@keyframes slide-top-normal {
+  0% {
+    top: 10vh;
+  }
+  100% {
+    top: -100vh;
+  }
+}
+
+#nav-mb {
+  top: -100vh;
+  left: 0;
+  right: 0;
+  /* z-index: 100; */
+}
+
+.ani-dwn {
+  animation: slide-bottom-normal 1s ease forwards;
+}
+
+.ani-up {
+  animation: slide-top-normal 1s ease forwards;
+}
+
+
+.font-kan{
+  font-family: "Anek Kannada", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

@@ -1,28 +1,28 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@500&display=swap');
 
 
 @keyframes slide-bottom-normal {
   0% {
-    top: -100vh;
+    left: -100vh;
   }
   100% {
-    top: 10vh;
+    left: 0vh;
   }
 }
 
 @keyframes slide-top-normal {
   0% {
-    top: 10vh;
+    left: 0vh;
   }
   100% {
-    top: -100vh;
+    left:  -100vh;
   }
 }
 
 #nav-mb {
-  top: -100vh;
-  left: 0;
+  height: 100vh;
+  top: 0;
+  left: -100vw;
   right: 0;
   /* z-index: 100; */
 }
