@@ -1,6 +1,6 @@
 let loadpg = document.querySelector("#load-page");
 
-window.addEventListener("", () => {
+window.addEventListener("load", () => {
     loadpg.style.display = "none"
 });
 
